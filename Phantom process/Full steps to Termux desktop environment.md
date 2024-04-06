@@ -38,10 +38,11 @@ pkg install android-tools
 12. At this point, this screen needs to stay up while running the next command in Termux. There are two options (that I know).
 Either:
 	1. Split the screen and open up Termux, or
-	2. Download Termux Float and have that open. 
-16. Now select Pair device with pairing code under the Wireless debugging options.
-17. A new window pops up with the pairing code, IP address, and port number. 
-18. In Termux, pair the device with `adb pair` using the IP address and port number as listed followed by the WiFi pairing code.
+	2. Download Termux Float and have that open.
+
+13. Now select Pair device with pairing code under the Wireless debugging options.
+14. A new window pops up with the pairing code, IP address, and port number. 
+15. In Termux, pair the device with `adb pair` using the IP address and port number as listed followed by the WiFi pairing code.
 
 ```bash
 adb pair <ip-address:port-number pairing-code>
