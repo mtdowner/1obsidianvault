@@ -1,40 +1,52 @@
-[[Full steps to Termux desktop environment]]# Setting up desktop environment all steps included
+[[Full steps to Termux desktop environment]]
+
+# Setting up desktop environment all steps included
 ## Disable phantom process killer
 1. Install Termux using F-Droid or GitHub.
 2. Open Termux and allow access to storage:
+
 ```bash
 termux-setup-storage
 ```
 3. Change the mirror group (I chose the default under single, but I typically stick with all mirror groups in all regions):
+
 ```bash
 termux-change-repo
 ```
+
 4. Update packages and choose `y` if prompted:
+
 ```bash
 pkg update
 ```
 ```bash
 pkg upgrade
 ```
+
 5.  Install `abd` toolkit
+
 ```bash
 pkg install android-tools
 ```
+
 6. Go to Settings and select About on phone or tablet. 
 7. Under About, hit the build number 7 times to activate Developer options. 
 8. Go back to Settings, and select System. 
 9. Under System, select Developer options. 
 10. Under Developer options, select Wireless debugging. Make sure WiFi is on before turning this on. Using your phone or tablet data will not work. 
 11. Toggle Wireless debugging on and new options will appear below. 
-12. At this point, this screen needs to stay up while running the next command in Termux. There are two options (that I know). Either:
+12. At this point, this screen needs to stay up while running the next command in Termux. There are two options (that I know).
+Either:
 	1. Split the screen and open up Termux, or
 	2. Download Termux Float and have that open. 
-13. Now select Pair device with pairing code under the Wireless debugging options.
-14. A new window pops up with the pairing code, IP address, and port number. 
-15. In Termux, pair the device with `adb pair` using the IP address and port number as listed followed by the WiFi pairing code.
+16. Now select Pair device with pairing code under the Wireless debugging options.
+17. A new window pops up with the pairing code, IP address, and port number. 
+18. In Termux, pair the device with `adb pair` using the IP address and port number as listed followed by the WiFi pairing code.
+
 ```bash
 adb pair <ip-address:port-number pairing-code>
 ```
+
 Take note:
 1. the semi-colon separating the IP address and port number without space, and
 2. the space between the IP address:port number and the pairing code. For example:
