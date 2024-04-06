@@ -1,10 +1,9 @@
 [[Full steps to Termux desktop environment]]
 
-
-
 # Setting up desktop environment all steps included
 
 ## Disable phantom process killer
+
 1. Install Termux using F-Droid or GitHub.
 2. Open Termux and allow access to storage:
 
@@ -21,13 +20,18 @@ termux-change-repo
 4. Update packages and choose `y` if prompted:
 
 ```bash
-pkg update
+sudo pkg update
 ```
 
 ```bash
-pkg upgrade
+sudo pkg upgrade
 ```
 
+Or, you can do what I do:
+
+```shell
+sudo apt update -y && sudo apt upgrade
+```
 5.  Install `abd` toolkit
 
 ```bash
