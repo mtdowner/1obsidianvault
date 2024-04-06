@@ -1,5 +1,5 @@
 ---
-Type:
+Program: Python 3.12
 ---
 [[Install Python3.12]]
 ```bash
