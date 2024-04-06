@@ -51,6 +51,7 @@ adb pair <ip-address:port-number pairing-code>
 Take note:
 1. the semi-colon separating the IP address and port number without space, and
 2. the space between the IP address:port number and the pairing code. For example:
+
 ```bash
 adb pair 100.76.229.106:40085 617337
 ```
