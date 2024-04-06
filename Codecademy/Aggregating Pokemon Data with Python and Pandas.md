@@ -14,7 +14,7 @@ Supermarket sales aggregated by category
 1. **How many Pokémon of each type are there?**
 2. **Which Pokémon type is the most powerful?**
 
-First, we will complete our analysis using spreadsheets because spreadsheets are the most widely used tool for data analysis. However, **Python programming provides more flexible and more scalable analysis options than spreadsheets**, so we will complete the analysis using Python and the Pandas library.
+First, we will complete our analysis using spreadsheets because spreadsheets are the most widely used tool for data analysis. However, **Python programming provides more flexible and everymore scalable analysis options than spreadsheets**, so we will complete the analysis using Python and the Pandas library.
 
 ## Starting with spreadsheets
 Let’s start with a dataset of all Pokémon from [Pokémon Database](https://pokemondb.net/pokedex/all). To follow along, download the data [here](https://raw.githubusercontent.com/albemlee/pokemon_data/master/all_pokemon.csv) (_right click and select "Save As…"_).
@@ -27,7 +27,7 @@ Each row represents a single Pokémon
 
 Each Pokémon belongs to one or two **types**, and certain types are strong against other types. For example, Charizard is a flying, fire-breathing lizard, so it is both `flying` and `fire` types, and it is weak against `water` types.
 
-Pokémon that belong to two types occupy two rows in our spreadsheet. In addition, every Pokémon has multiple stats to determine how it performs in battle. A description of each stat can be found in the [Pokémon Database](https://pokemondb.net/pokedex). For example, Blastoise has a higher defense stat than Charizard, so it will better withstand physical attacks. For our analysis, we will look at the type with the highest number for each stat.
+Pokémon that belong to two types occupy two rows in our spreadsheet. In addition,  Pokémon has multiple stats to determine how it performs in battle. A description of each stat can be found in the [Pokémon Database](https://pokemondb.net/pokedex). For example, Blastoise has a higher defense stat than Charizard, so it will better withstand physical attacks. For our analysis, we will look at the type with the highest number for each stat.
 
 A pivot table is a tool designed specifically to aggregate data, and it will be the easiest way to aggregate Pokémon by type in our spreadsheet. To create a pivot table, select your data, and select the Pivot Table option. Since we are aggregating by Pokémon type, we will add “Type” to rows in the pivot table options.
 
