@@ -1,3 +1,6 @@
+---
+Type:
+---
 [[Install Python3.12]]
 ```bash
 apt update && apt upgrade -y
