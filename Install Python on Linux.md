@@ -3,17 +3,7 @@ Program: Installing Python on Linux
 ---
 [[Install Python on Linux]]
 
-![Python 3 Installation & Setup Guide](https://files.realpython.com/media/Python-3-Installation--Setup-Guide_Watermarked.62f654dcab67.jpg)
-
-# Python 3 Installation & Setup Guide
-
-by [Real Python](https://realpython.com/installing-python/#team)  Aug 31, 2020 [34 Comments](https://realpython.com/installing-python/#reader-comments) [basics](https://realpython.com/tutorials/basics/) [best-practices](https://realpython.com/tutorials/best-practices/) [tools](https://realpython.com/tutorials/tools/)
-
- Completed
-
-[Share](https://twitter.com/intent/tweet/?text=Check%20out%20this%20%23Python%20tutorial:%20Python%203%20Installation%20%26%20Setup%20Guide%20by%20@realpython&url=https%3A//realpython.com/installing-python/) [Share](https://facebook.com/sharer/sharer.php?u=https%3A//realpython.com/installing-python/) [Email](mailto:?subject=Python%20article%20for%20you&body=Check%20out%20this%20Python%20tutorial:%0A%0APython%203%20Installation%20%26%20Setup%20Guide%0A%0Ahttps%3A//realpython.com/installing-python/)
-
-Table of Contents
+## Table of Contents
 
 - [How to Install Python on Windows](https://realpython.com/installing-python/#how-to-install-python-on-windows)
     - [How to Check Your Python Version on Windows](https://realpython.com/installing-python/#how-to-check-your-python-version-on-windows)
@@ -40,10 +30,6 @@ Table of Contents
 - [Conclusion](https://realpython.com/installing-python/#conclusion)
 
  Watch Now This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding: [**Python Basics: Setting Up Python**](https://realpython.com/courses/setting-up-python/)
-
-Installing or updating Python on your computer is the first step to becoming a Python programmer. There are a multitude of installation methods: you can download official Python distributions from [Python.org](https://python.org/), install from a package manager, and even install specialized distributions for scientific computing, Internet of Things, and embedded systems.
-
-This tutorial focuses on official distributions, as they’re generally the best option for getting started with learning to program in Python.
 
 **In this tutorial you’ll learn how to:**
 
