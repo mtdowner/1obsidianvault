@@ -3,11 +3,6 @@ Program: Installing Python on Linux
 ---
 [[Install Python on Linux]]
 
-
-[![Real Python](https://realpython.com/static/real-python-logo.893c30edea53.svg)](https://realpython.com/)
-
- [**Your Subscription Is Past Due:** Update your payment details →](https://realpython.com/account/subscriptions/e26efd0f-ce65-4bb2-9ee2-02673457925c/billing/?from=past_due_banner)
-
 ![Python 3 Installation & Setup Guide](https://files.realpython.com/media/Python-3-Installation--Setup-Guide_Watermarked.62f654dcab67.jpg)
 
 # Python 3 Installation & Setup Guide
