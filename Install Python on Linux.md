@@ -80,6 +80,9 @@ Windows Command Prompt
 
 `C:\> where.exe python C:\Users\mertz\AppData\Local\Programs\Python\Python37-32\python.exe`
 
+
+> [!NOTE] Title
+> Contents
 Note that the `where.exe` command will work only if Python has been installed for your user account.
 
 ### What Your Options Are[](https://realpython.com/installing-python/#what-your-options-are "Permanent link")
@@ -91,7 +94,6 @@ As mentioned earlier, there are three ways to install the official Python distri
 2. **Full Installer:** This approach involves downloading Python directly from the [Python.org website](https://www.python.org/). This is recommended for intermediate and advanced developers who need more control during the setup process.
     
 3. **Windows Subsystem for Linux (WSL):** The WSL allows you to run a Linux environment directly in Windows. You can learn how to enable the WSL by reading the [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-    
 
 In this section, we’ll focus on only the first two options, which are the most popular installation methods in a Windows environment.
 
