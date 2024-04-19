@@ -29,40 +29,12 @@ Program: Installing Python on Linux
 - [Online Python Interpreters](https://realpython.com/installing-python/#online-python-interpreters)
 - [Conclusion](https://realpython.com/installing-python/#conclusion)
 
- Watch Now This tutorial has a related video course created by the Real Python team. Watch it together with the written tutorial to deepen your understanding: [**Python Basics: Setting Up Python**](https://realpython.com/courses/setting-up-python/)
-
 **In this tutorial you’ll learn how to:**
 
 - Check which **version** of Python, if any, is installed on your machine
 - Install or update Python on **Windows**, **macOS**, and **Linux**
 - Use Python on **mobile devices** like phones or tablets
 - Use Python on the Web with **online interpreters**
-
-No matter what operating system you’re on, this tutorial has you covered. Find your operating system below and dive in!
-
-**Free Bonus:** [Click here to get a Python Cheat Sheet](https://realpython.com/installing-python/) and learn the basics of Python 3, like working with data types, dictionaries, lists, and Python functions.
-
- ==**Take the Quiz:**== Test your knowledge with our interactive “Python Installation and Setup” quiz. Upon completion you will receive a score so you can track your learning progress over time:
-
----
-
-[
-
-![Python 3 Installation & Setup Guide](https://files.realpython.com/media/Python-3-Installation--Setup-Guide_Watermarked.62f654dcab67.jpg)
-
-
-
-](https://realpython.com/quizzes/python-installation-and-setup/)
-
-**Interactive Quiz**
-
-[
-
-## Python Installation and Setup
-
-](https://realpython.com/quizzes/python-installation-and-setup/)
-
-In this quiz, you'll test your understanding of how to install or update Python on your computer. With this knowledge, you'll be able to set up Python on various operating systems, including Windows, macOS, and Linux.
 
 ## How to Install Python on Windows[](https://realpython.com/installing-python/#how-to-install-python-on-windows "Permanent link")
 
@@ -71,8 +43,6 @@ There are three installation methods on Windows:
 1. The Microsoft Store
 2. The full installer
 3. Windows Subsystem for Linux
-
-In this section, you’ll learn how to check which version of Python, if any, is installed on your Windows computer. You’ll also learn which of the three installation methods you should use. For a more comprehensive guide, check out [Your Python Coding Environment on Windows: Setup Guide](https://realpython.com/python-coding-setup-windows/).
 
 ### How to Check Your Python Version on Windows[](https://realpython.com/installing-python/#how-to-check-your-python-version-on-windows "Permanent link")
 
@@ -87,8 +57,6 @@ To check if you already have Python on your Windows machine, first open a comman
 Alternatively, you can right-click the _Start_ button and select _Windows PowerShell_ or _Windows PowerShell (Admin)_.
 
 You can also use `cmd.exe` or [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab).
-
-**Note:** To learn more about your options for the Windows terminal, check out [Using the Terminal on Windows](https://realpython.com/courses/using-terminal-windows/).
 
 With the command line open, type in the following command and press Enter:
 
