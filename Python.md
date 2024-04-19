@@ -1,14 +1,11 @@
-[[Python]]## REPL
-### [Using the Python Interpreter Interactively](https://realpython.com/interacting-with-python/#using-the-python-interpreter-interactively "Permanent link")
+# Python REPL
+## [Using the Python Interpreter Interactively](https://realpython.com/interacting-with-python/#using-the-python-interpreter-interactively "Permanent link")
 [Read-Eval-Print Loop (REPL)](https://realpython.com/python-repl/) environment. That simply means starting up the interpreter and typing commands to it directly. The interpreter:
 
 - **R**eads the command you enter
 - **E**valuates and executes the command
 - **P**rints the output (if any) to the console
 - **L**oops back and repeats the process
-- [ ] - [ ] 
-
-
 
 ## Python script
 ```py
@@ -34,8 +31,6 @@ Use `chmod` to make the script executable:
 chmod +x hello.py
 ```
 
-
-
 ## Data Types
 
 ### Loops
@@ -44,7 +39,6 @@ chmod +x hello.py
 In a `for` loop, we will know in advance how many times the loop will need to iterate because we will be working on a collection with a predefined length.
 
 With `for` loops, on each iteration, we will be able to perform an action on each element of the collection.
-
 
 #### Structure
 ```py
@@ -73,7 +67,6 @@ This code outputs:
 milksugarvanilla extractdoughchocolate
 ```
 
-
 ### Temporary Variables
 A temporary variable’s name is arbitrary and does not need to be defined beforehand. Both of the following code snippets do the exact same thing as our above example:
 
@@ -89,7 +82,6 @@ for item in ingredients:  
 
 Programming best practices suggest we make our temporary variables as descriptive as possible. Since each iteration (step) of our loop is accessing an ingredient it makes more sense to call our temporary variable `ingredient` rather than `i` or `item`.
 
-
 ### Indentation
 Notice that in all of these examples the `print` statement is indented. Everything at the same level of indentation after the `for` loop declaration is included in the loop body and is run on every iteration of the loop.
 
@@ -101,7 +93,6 @@ for ingredient in ingredients:  
 ```
 
 If we ever forget to indent, we’ll get an `IndentationError` or unexpected behavior.
-
 
 ### Elegant loops
 Python loves to help us write elegant code so it allows us to write simple `for` loops in one-line. In order to see the below example as one line, you may need to expand your narrative window. Here is the previous example in a single line:
