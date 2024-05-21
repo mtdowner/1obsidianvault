@@ -159,7 +159,10 @@ root    ALL=(ALL:ALL) ALL
 missy   ALL=(ALL:ALL) ALL
 ```
 
-1. Save the file without changing the file's name by typing `ctrl + X` to exit then `y` to save followed by pressing enter to keep the name the same.
+1. Save and exit the file without changing the file's name:
+	1. `ctrl + X` to exit
+	2. `y` to save
+	3. `enter to keep the name the same.
 2. Switch over to new user, and update packages:
 
 ```bash
