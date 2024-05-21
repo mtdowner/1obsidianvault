@@ -162,7 +162,7 @@ missy   ALL=(ALL:ALL) ALL
 1. Save and exit the file without changing the file's name:
 	1. `ctrl + X` to exit
 	2. `y` to save
-	3. `enter to keep the name the same.
+	3. `enter` to keep the name the same.
 2. Switch over to new user, and update packages:
 
 ```bash
